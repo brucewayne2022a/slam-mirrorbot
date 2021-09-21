@@ -4,6 +4,7 @@ class _BotCommands:
         self.MirrorCommand = 'mirror'
         self.UnzipMirrorCommand = 'unzipmirror'
         self.TarMirrorCommand = 'tarmirror'
+        self.ZipMirrorCommand = 'zipmirror'
         self.CancelMirror = 'cancel'
         self.CancelAllCommand = 'cancelall'
         self.ListCommand = 'list'
@@ -23,7 +24,14 @@ class _BotCommands:
         self.CountCommand = 'count'
         self.WatchCommand = 'watch'
         self.TarWatchCommand = 'tarwatch'
+        self.ZipWatchCommand = 'zipwatch'
+        self.QbMirrorCommand = 'qbmirror'
+        self.QbUnzipMirrorCommand = 'qbunzipmirror'
+        self.QbTarMirrorCommand = 'qbtarmirror'
+        self.QbZipMirrorCommand = 'qbzipmirror'
         self.DeleteCommand = 'del'
-        self.UsageCommand = 'usage'
+        self.ShellCommand = 'shell'
+        self.ExecHelpCommand = 'exechelp'
+        self.TsHelpCommand = 'tshelp'
 
 BotCommands = _BotCommands()
